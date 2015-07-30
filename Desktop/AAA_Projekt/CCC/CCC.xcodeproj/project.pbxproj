@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF8231015A44DC100E91081 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8230F15A44DC100E91081 /* Cocoa.framework */; };
+		BDF8231A15A44DC100E91081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF8231815A44DC100E91081 /* InfoPlist.strings */; };
+		BDF8231C15A44DC100E91081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8231B15A44DC100E91081 /* main.m */; };
+		BDF8232015A44DC100E91081 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BDF8231E15A44DC100E91081 /* Credits.rtf */; };
+		BDF8232315A44DC100E91081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8232215A44DC100E91081 /* AppDelegate.m */; };
+		BDF8232615A44DC100E91081 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF8232415A44DC100E91081 /* MainMenu.xib */; };
+		BDF8232915A44DC100E91081 /* CCC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF8232715A44DC100E91081 /* CCC.xcdatamodeld */; };
+		BDF8233115A44DC100E91081 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8233015A44DC100E91081 /* SenTestingKit.framework */; };
+		BDF8233215A44DC100E91081 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8230F15A44DC100E91081 /* Cocoa.framework */; };
+		BDF8233A15A44DC100E91081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF8233815A44DC100E91081 /* InfoPlist.strings */; };
+		BDF8233D15A44DC100E91081 /* CCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8233C15A44DC100E91081 /* CCCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF8233315A44DC100E91081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF8230215A44DC100E91081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF8230A15A44DC100E91081;
+			remoteInfo = CCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF8230B15A44DC100E91081 /* CCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF8230F15A44DC100E91081 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BDF8231215A44DC100E91081 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BDF8231315A44DC100E91081 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDF8231415A44DC100E91081 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDF8231715A44DC100E91081 /* CCC-Info.plist */ = {isa = PBXFileReference; path = "CCC-Info.plist"; sourceTree = "<group>"; };
+		BDF8231915A44DC100E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF8231B15A44DC100E91081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF8231D15A44DC100E91081 /* CCC-Prefix.pch */ = {isa = PBXFileReference; path = "CCC-Prefix.pch"; sourceTree = "<group>"; };
+		BDF8231F15A44DC100E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BDF8232115A44DC100E91081 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDF8232215A44DC100E91081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDF8232515A44DC100E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BDF8232815A44DC100E91081 /* CCC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CCC.xcdatamodel; sourceTree = "<group>"; };
+		BDF8232F15A44DC100E91081 /* CCCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF8233015A44DC100E91081 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDF8233715A44DC100E91081 /* CCCTests-Info.plist */ = {isa = PBXFileReference; path = "CCCTests-Info.plist"; sourceTree = "<group>"; };
+		BDF8233915A44DC100E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF8233B15A44DC100E91081 /* CCCTests.h */ = {isa = PBXFileReference; path = CCCTests.h; sourceTree = "<group>"; };
+		BDF8233C15A44DC100E91081 /* CCCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF8230815A44DC100E91081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8231015A44DC100E91081 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8232B15A44DC100E91081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8233115A44DC100E91081 /* SenTestingKit.framework in Frameworks */,
+				BDF8233215A44DC100E91081 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF8230015A44DC100E91081 = {
+			isa = PBXGroup;
+			children = (
+				BDF8231515A44DC100E91081 /* CCC */,
+				BDF8233515A44DC100E91081 /* CCCTests */,
+				BDF8230E15A44DC100E91081 /* Frameworks */,
+				BDF8230C15A44DC100E91081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF8230C15A44DC100E91081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8230B15A44DC100E91081 /* CCC.app */,
+				BDF8232F15A44DC100E91081 /* CCCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF8230E15A44DC100E91081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8230F15A44DC100E91081 /* Cocoa.framework */,
+				BDF8233015A44DC100E91081 /* SenTestingKit.framework */,
+				BDF8231115A44DC100E91081 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF8231115A44DC100E91081 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8231215A44DC100E91081 /* AppKit.framework */,
+				BDF8231315A44DC100E91081 /* CoreData.framework */,
+				BDF8231415A44DC100E91081 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BDF8231515A44DC100E91081 /* CCC */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8232115A44DC100E91081 /* AppDelegate.h */,
+				BDF8232215A44DC100E91081 /* AppDelegate.m */,
+				BDF8232415A44DC100E91081 /* MainMenu.xib */,
+				BDF8232715A44DC100E91081 /* CCC.xcdatamodeld */,
+				BDF8231615A44DC100E91081 /* Supporting Files */,
+			);
+			path = CCC;
+			sourceTree = "<group>";
+		};
+		BDF8231615A44DC100E91081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8231715A44DC100E91081 /* CCC-Info.plist */,
+				BDF8231815A44DC100E91081 /* InfoPlist.strings */,
+				BDF8231B15A44DC100E91081 /* main.m */,
+				BDF8231D15A44DC100E91081 /* CCC-Prefix.pch */,
+				BDF8231E15A44DC100E91081 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF8233515A44DC100E91081 /* CCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8233B15A44DC100E91081 /* CCCTests.h */,
+				BDF8233C15A44DC100E91081 /* CCCTests.m */,
+				BDF8233615A44DC100E91081 /* Supporting Files */,
+			);
+			path = CCCTests;
+			sourceTree = "<group>";
+		};
+		BDF8233615A44DC100E91081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8233715A44DC100E91081 /* CCCTests-Info.plist */,
+				BDF8233815A44DC100E91081 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF8230A15A44DC100E91081 /* CCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF8234015A44DC100E91081 /* Build configuration list for PBXNativeTarget "CCC" */;
+			buildPhases = (
+				BDF8230715A44DC100E91081 /* Sources */,
+				BDF8230815A44DC100E91081 /* Frameworks */,
+				BDF8230915A44DC100E91081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCC;
+			productName = CCC;
+			productReference = BDF8230B15A44DC100E91081 /* CCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF8232E15A44DC100E91081 /* CCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF8234315A44DC100E91081 /* Build configuration list for PBXNativeTarget "CCCTests" */;
+			buildPhases = (
+				BDF8232A15A44DC100E91081 /* Sources */,
+				BDF8232B15A44DC100E91081 /* Frameworks */,
+				BDF8232C15A44DC100E91081 /* Resources */,
+				BDF8232D15A44DC100E91081 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF8233415A44DC100E91081 /* PBXTargetDependency */,
+			);
+			name = CCCTests;
+			productName = CCCTests;
+			productReference = BDF8232F15A44DC100E91081 /* CCCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF8230215A44DC100E91081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BDF8230515A44DC100E91081 /* Build configuration list for PBXProject "CCC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDF8230015A44DC100E91081;
+			productRefGroup = BDF8230C15A44DC100E91081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF8230A15A44DC100E91081 /* CCC */,
+				BDF8232E15A44DC100E91081 /* CCCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF8230915A44DC100E91081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8231A15A44DC100E91081 /* InfoPlist.strings in Resources */,
+				BDF8232015A44DC100E91081 /* Credits.rtf in Resources */,
+				BDF8232615A44DC100E91081 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8232C15A44DC100E91081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8233A15A44DC100E91081 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDF8232D15A44DC100E91081 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF8230715A44DC100E91081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8231C15A44DC100E91081 /* main.m in Sources */,
+				BDF8232315A44DC100E91081 /* AppDelegate.m in Sources */,
+				BDF8232915A44DC100E91081 /* CCC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8232A15A44DC100E91081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8233D15A44DC100E91081 /* CCCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF8233415A44DC100E91081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF8230A15A44DC100E91081 /* CCC */;
+			targetProxy = BDF8233315A44DC100E91081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF8231815A44DC100E91081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8231915A44DC100E91081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDF8231E15A44DC100E91081 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8231F15A44DC100E91081 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BDF8232415A44DC100E91081 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8232515A44DC100E91081 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BDF8233815A44DC100E91081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8233915A44DC100E91081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF8233E15A44DC100E91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDF8233F15A44DC100E91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDF8234115A44DC100E91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCC/CCC-Prefix.pch";
+				INFOPLIST_FILE = "CCC/CCC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDF8234215A44DC100E91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCC/CCC-Prefix.pch";
+				INFOPLIST_FILE = "CCC/CCC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDF8234415A44DC100E91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCC.app/Contents/MacOS/CCC";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCC/CCC-Prefix.pch";
+				INFOPLIST_FILE = "CCCTests/CCCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BDF8234515A44DC100E91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCC.app/Contents/MacOS/CCC";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCC/CCC-Prefix.pch";
+				INFOPLIST_FILE = "CCCTests/CCCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF8230515A44DC100E91081 /* Build configuration list for PBXProject "CCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8233E15A44DC100E91081 /* Debug */,
+				BDF8233F15A44DC100E91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF8234015A44DC100E91081 /* Build configuration list for PBXNativeTarget "CCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8234115A44DC100E91081 /* Debug */,
+				BDF8234215A44DC100E91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDF8234315A44DC100E91081 /* Build configuration list for PBXNativeTarget "CCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8234415A44DC100E91081 /* Debug */,
+				BDF8234515A44DC100E91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF8232715A44DC100E91081 /* CCC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF8232815A44DC100E91081 /* CCC.xcdatamodel */,
+			);
+			currentVersion = BDF8232815A44DC100E91081 /* CCC.xcdatamodel */;
+			path = CCC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDF8230215A44DC100E91081 /* Project object */;
+}

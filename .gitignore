@@ -1,0 +1,6 @@
+.DS_Store
+build
+/build/Release/Bitmanipulator.app.dSYM
+build/Release/Bitmanipulator.app.dSYM
+build/abc.txt
+build

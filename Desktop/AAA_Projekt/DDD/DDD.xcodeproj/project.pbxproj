@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF8235B15A451B700E91081 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8235A15A451B700E91081 /* Cocoa.framework */; };
+		BDF8236515A451B700E91081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF8236315A451B700E91081 /* InfoPlist.strings */; };
+		BDF8236715A451B700E91081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8236615A451B700E91081 /* main.m */; };
+		BDF8236B15A451B700E91081 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BDF8236915A451B700E91081 /* Credits.rtf */; };
+		BDF8236E15A451B700E91081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8236D15A451B700E91081 /* AppDelegate.m */; };
+		BDF8237115A451B800E91081 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF8236F15A451B800E91081 /* MainMenu.xib */; };
+		BDF8237415A451B800E91081 /* DDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF8237215A451B800E91081 /* DDD.xcdatamodeld */; };
+		BDF8237C15A451B800E91081 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8237B15A451B800E91081 /* SenTestingKit.framework */; };
+		BDF8237D15A451B800E91081 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8235A15A451B700E91081 /* Cocoa.framework */; };
+		BDF8238515A451B800E91081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF8238315A451B800E91081 /* InfoPlist.strings */; };
+		BDF8238815A451B800E91081 /* DDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8238715A451B800E91081 /* DDDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF8237E15A451B800E91081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF8234D15A451B700E91081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF8235515A451B700E91081;
+			remoteInfo = DDD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF8235615A451B700E91081 /* DDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF8235A15A451B700E91081 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BDF8235D15A451B700E91081 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BDF8235E15A451B700E91081 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDF8235F15A451B700E91081 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDF8236215A451B700E91081 /* DDD-Info.plist */ = {isa = PBXFileReference; path = "DDD-Info.plist"; sourceTree = "<group>"; };
+		BDF8236415A451B700E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF8236615A451B700E91081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF8236815A451B700E91081 /* DDD-Prefix.pch */ = {isa = PBXFileReference; path = "DDD-Prefix.pch"; sourceTree = "<group>"; };
+		BDF8236A15A451B700E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BDF8236C15A451B700E91081 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDF8236D15A451B700E91081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDF8237015A451B800E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BDF8237315A451B800E91081 /* DDD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DDD.xcdatamodel; sourceTree = "<group>"; };
+		BDF8237A15A451B800E91081 /* DDDTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDDTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF8237B15A451B800E91081 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDF8238215A451B800E91081 /* DDDTests-Info.plist */ = {isa = PBXFileReference; path = "DDDTests-Info.plist"; sourceTree = "<group>"; };
+		BDF8238415A451B800E91081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF8238615A451B800E91081 /* DDDTests.h */ = {isa = PBXFileReference; path = DDDTests.h; sourceTree = "<group>"; };
+		BDF8238715A451B800E91081 /* DDDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF8235315A451B700E91081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8235B15A451B700E91081 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8237615A451B800E91081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8237C15A451B800E91081 /* SenTestingKit.framework in Frameworks */,
+				BDF8237D15A451B800E91081 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF8234B15A451B700E91081 = {
+			isa = PBXGroup;
+			children = (
+				BDF8236015A451B700E91081 /* DDD */,
+				BDF8238015A451B800E91081 /* DDDTests */,
+				BDF8235915A451B700E91081 /* Frameworks */,
+				BDF8235715A451B700E91081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF8235715A451B700E91081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8235615A451B700E91081 /* DDD.app */,
+				BDF8237A15A451B800E91081 /* DDDTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF8235915A451B700E91081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8235A15A451B700E91081 /* Cocoa.framework */,
+				BDF8237B15A451B800E91081 /* SenTestingKit.framework */,
+				BDF8235C15A451B700E91081 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF8235C15A451B700E91081 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8235D15A451B700E91081 /* AppKit.framework */,
+				BDF8235E15A451B700E91081 /* CoreData.framework */,
+				BDF8235F15A451B700E91081 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BDF8236015A451B700E91081 /* DDD */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8236C15A451B700E91081 /* AppDelegate.h */,
+				BDF8236D15A451B700E91081 /* AppDelegate.m */,
+				BDF8236F15A451B800E91081 /* MainMenu.xib */,
+				BDF8237215A451B800E91081 /* DDD.xcdatamodeld */,
+				BDF8236115A451B700E91081 /* Supporting Files */,
+			);
+			path = DDD;
+			sourceTree = "<group>";
+		};
+		BDF8236115A451B700E91081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8236215A451B700E91081 /* DDD-Info.plist */,
+				BDF8236315A451B700E91081 /* InfoPlist.strings */,
+				BDF8236615A451B700E91081 /* main.m */,
+				BDF8236815A451B700E91081 /* DDD-Prefix.pch */,
+				BDF8236915A451B700E91081 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF8238015A451B800E91081 /* DDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8238615A451B800E91081 /* DDDTests.h */,
+				BDF8238715A451B800E91081 /* DDDTests.m */,
+				BDF8238115A451B800E91081 /* Supporting Files */,
+			);
+			path = DDDTests;
+			sourceTree = "<group>";
+		};
+		BDF8238115A451B800E91081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8238215A451B800E91081 /* DDDTests-Info.plist */,
+				BDF8238315A451B800E91081 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF8235515A451B700E91081 /* DDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF8238B15A451B800E91081 /* Build configuration list for PBXNativeTarget "DDD" */;
+			buildPhases = (
+				BDF8235215A451B700E91081 /* Sources */,
+				BDF8235315A451B700E91081 /* Frameworks */,
+				BDF8235415A451B700E91081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDD;
+			productName = DDD;
+			productReference = BDF8235615A451B700E91081 /* DDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF8237915A451B800E91081 /* DDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF8238E15A451B800E91081 /* Build configuration list for PBXNativeTarget "DDDTests" */;
+			buildPhases = (
+				BDF8237515A451B800E91081 /* Sources */,
+				BDF8237615A451B800E91081 /* Frameworks */,
+				BDF8237715A451B800E91081 /* Resources */,
+				BDF8237815A451B800E91081 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF8237F15A451B800E91081 /* PBXTargetDependency */,
+			);
+			name = DDDTests;
+			productName = DDDTests;
+			productReference = BDF8237A15A451B800E91081 /* DDDTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF8234D15A451B700E91081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BDF8235015A451B700E91081 /* Build configuration list for PBXProject "DDD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDF8234B15A451B700E91081;
+			productRefGroup = BDF8235715A451B700E91081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF8235515A451B700E91081 /* DDD */,
+				BDF8237915A451B800E91081 /* DDDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF8235415A451B700E91081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8236515A451B700E91081 /* InfoPlist.strings in Resources */,
+				BDF8236B15A451B700E91081 /* Credits.rtf in Resources */,
+				BDF8237115A451B800E91081 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8237715A451B800E91081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8238515A451B800E91081 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDF8237815A451B800E91081 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF8235215A451B700E91081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8236715A451B700E91081 /* main.m in Sources */,
+				BDF8236E15A451B700E91081 /* AppDelegate.m in Sources */,
+				BDF8237415A451B800E91081 /* DDD.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8237515A451B800E91081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF8238815A451B800E91081 /* DDDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF8237F15A451B800E91081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF8235515A451B700E91081 /* DDD */;
+			targetProxy = BDF8237E15A451B800E91081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF8236315A451B700E91081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8236415A451B700E91081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDF8236915A451B700E91081 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8236A15A451B700E91081 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BDF8236F15A451B800E91081 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8237015A451B800E91081 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BDF8238315A451B800E91081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF8238415A451B800E91081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF8238915A451B800E91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDF8238A15A451B800E91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDF8238C15A451B800E91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDD/DDD-Prefix.pch";
+				INFOPLIST_FILE = "DDD/DDD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDF8238D15A451B800E91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDD/DDD-Prefix.pch";
+				INFOPLIST_FILE = "DDD/DDD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDF8238F15A451B800E91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DDD.app/Contents/MacOS/DDD";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDD/DDD-Prefix.pch";
+				INFOPLIST_FILE = "DDDTests/DDDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BDF8239015A451B800E91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DDD.app/Contents/MacOS/DDD";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDD/DDD-Prefix.pch";
+				INFOPLIST_FILE = "DDDTests/DDDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF8235015A451B700E91081 /* Build configuration list for PBXProject "DDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8238915A451B800E91081 /* Debug */,
+				BDF8238A15A451B800E91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF8238B15A451B800E91081 /* Build configuration list for PBXNativeTarget "DDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8238C15A451B800E91081 /* Debug */,
+				BDF8238D15A451B800E91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDF8238E15A451B800E91081 /* Build configuration list for PBXNativeTarget "DDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF8238F15A451B800E91081 /* Debug */,
+				BDF8239015A451B800E91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF8237215A451B800E91081 /* DDD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF8237315A451B800E91081 /* DDD.xcdatamodel */,
+			);
+			currentVersion = BDF8237315A451B800E91081 /* DDD.xcdatamodel */;
+			path = DDD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDF8234D15A451B700E91081 /* Project object */;
+}
